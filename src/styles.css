@@ -1,0 +1,44 @@
+@keyframes example1 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: darkgray;
+  }
+}
+
+@keyframes example2 {
+  from {
+    background-color: darkgray;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.dark {
+  color: white;
+  background-color: darkgrey;
+  animation-name: example1;
+  animation-duration: 2s;
+}
+
+.light {
+  color: black;
+  background-color: white;
+  animation-name: example2;
+  animation-duration: 2s;
+}
+
+.mapContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
