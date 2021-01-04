@@ -13,18 +13,18 @@ export const Fetcher = () => {
       });
   };
 
+  const st = { display: "flex", color: "red" };
+
   return (
     <div>
       <button onClick={fetchData}>FETCH</button>
-      <div>
+      <div style={st}>
         {users.map((u) => (
           <div key={u.id.value}>
-            <ul>
-              <li>
-                <div>{`${u.gender}`}</div>
-                <div>{`${u.name.title} ${u.name.first} ${u.name.last}`}</div>
-              </li>
-            </ul>
+            <div>
+              <img src={`${u.picture.large}`} />
+            </div>
+            <div>{`${u.name.title} ${u.name.first} ${u.name.last}`}</div>
           </div>
         ))}
       </div>
