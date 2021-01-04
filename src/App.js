@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { MyList } from "./MyList";
 import "./styles.css";
 import MyApp from "./MyApp";
 import MyMap from "./MyMap";
@@ -30,9 +31,10 @@ export default function App() {
   return (
     <div className="App">
       {/* <MyApp /> */}
-      {navigatorCoords ? (
+      {/* {navigatorCoords ? (
         <MyMap lat={navigatorCoords.latitude} lng={navigatorCoords.longitude} />
-      ) : null}
+      ) : null} */}
+      <MyList />
     </div>
   );
 }
