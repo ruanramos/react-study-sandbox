@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { MyList } from "./MyList";
 import "./styles.css";
+import { Counter } from "./Counter";
 import MyApp from "./MyApp";
 import MyMap from "./MyMap";
 import {} from "@aesqe/mapboxgl-minimap";
@@ -34,7 +35,8 @@ export default function App() {
       {/* {navigatorCoords ? (
         <MyMap lat={navigatorCoords.latitude} lng={navigatorCoords.longitude} />
       ) : null} */}
-      <MyList />
+      {/* <MyList /> */}
+      <Counter />
     </div>
   );
 }
