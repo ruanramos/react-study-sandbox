@@ -1,6 +1,6 @@
 import React from "react";
 import { cleanup, fireEvent, render, screen } from "@testing-library/react";
-import { Counter } from "../Counter";
+import { Counter } from "../components/Counter";
 import { Fetcher } from "../components/Fetcher";
 
 afterEach(() => cleanup());

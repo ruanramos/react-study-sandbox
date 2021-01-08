@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { MyList } from "./MyList";
+import { MyList } from "./components/MyList";
 import "./styles.css";
-import { Counter } from "./Counter";
+import { Counter } from "./components/Counter";
 import MyApp from "./MyApp";
-import MyMap from "./MyMap";
-import {} from "@aesqe/mapboxgl-minimap";
+import MyMap from "./components/MyMap";
+//import { } from "@aesqe/mapboxgl-minimap";
 import { Fetcher } from "./components/Fetcher";
 
 export default function App() {
@@ -36,8 +36,8 @@ export default function App() {
       {/* {navigatorCoords ? (
         <MyMap lat={navigatorCoords.latitude} lng={navigatorCoords.longitude} />
       ) : null} */}
-      {/* <MyList /> */}
-      {/* <Counter /> */}
+      <MyList />
+      <Counter />
       <Fetcher />
     </div>
   );

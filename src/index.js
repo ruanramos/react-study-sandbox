@@ -6,8 +6,7 @@ import { Fetcher } from "./components/Fetcher";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Fetcher />
+    <App />
   </React.StrictMode>,
   rootElement
 );

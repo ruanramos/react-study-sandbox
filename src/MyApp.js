@@ -6,7 +6,7 @@ import React, {
   createContext,
   useContext
 } from "react";
-import { Button } from "./MyButton";
+import { Button } from "./components/MyButton";
 
 const MyApp = (props) => {
   const [number, setNumber] = useState(1);
