@@ -37,8 +37,8 @@ export default function App() {
         <MyMap lat={navigatorCoords.latitude} lng={navigatorCoords.longitude} />
       ) : null} */}
       {/* <MyList /> */}
-      {/* <Counter /> */}
-      <Fetcher />
+      <Counter />
+      {/* <Fetcher /> */}
     </div>
   );
 }
