@@ -8,7 +8,6 @@
     "@aesqe/mapboxgl-minimap": "1.0.0",
     "@mapbox/mapbox-gl-directions": "4.1.0",
     "@testing-library/react": "11.2.2",
-    "jest": "26.6.3",
     "mapbox-gl": "^2.0.0",
     "react": "17.0.0",
     "react-dom": "17.0.0",
