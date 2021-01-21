@@ -6,6 +6,7 @@ import MyApp from "./MyApp";
 import MyMap from "./components/MyMap";
 //import { } from "@aesqe/mapboxgl-minimap";
 import { Fetcher } from "./components/Fetcher";
+import {Grid} from "./components/Grid";
 
 export default function App() {
   const [navigatorCoords, setNavigatorCoords] = useState(null);
@@ -39,6 +40,7 @@ export default function App() {
       <MyList />
       <Counter />
       <Fetcher />
+      <Grid />
     </div>
   );
 }
