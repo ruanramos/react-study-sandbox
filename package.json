@@ -14,7 +14,8 @@
     "react-flexbox-grid": "^2.1.2",
     "react-scripts": "3.4.3",
     "styled-components": "5.2.1",
-    "json-server": "0.16.3"
+    "json-server": "0.16.3",
+    "typescript": "3.8.3"
   },
   "devDependencies": {
     "typescript": "3.8.3"
