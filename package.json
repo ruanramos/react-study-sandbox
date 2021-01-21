@@ -11,8 +11,10 @@
     "mapbox-gl": "^2.0.0",
     "react": "17.0.0",
     "react-dom": "17.0.0",
+    "react-flexbox-grid": "^2.1.2",
     "react-scripts": "3.4.3",
-    "styled-components": "5.2.1"
+    "styled-components": "5.2.1",
+    "json-server": "0.16.3"
   },
   "devDependencies": {
     "typescript": "3.8.3"
@@ -21,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stub": "node ./server/stub-server.js"
   },
   "browserslist": [
     ">0.2%",
