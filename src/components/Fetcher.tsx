@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 export const Fetcher = () => {
   const url = "https://randomuser.me/api/";
-  const [users, setUsers] = useState([]);
-  const [pending, setPending] = useState(false);
+  const [users, setUsers] = useState<any>([]);
+  const [pending, setPending] = useState<boolean>(false);
 
   const fetchData = () => {
     setPending(true);
@@ -14,6 +14,11 @@ export const Fetcher = () => {
         setUsers([...users, u.results[0]]);
         setPending(false);
         console.log("ENDING FETCH")
+      }).catch((err) => {
+        console.log(err);
+        setPending(false);
+        alert(err);
+
       });
   };
 
